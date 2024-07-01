@@ -3,7 +3,7 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 
 export default function Textform(props) {
-  const [text, setText] = useState("Enter your text");
+  const [text, setText] = useState("");
 
   const handleOnChange = (event) => {
     setText(event.target.value);
@@ -55,10 +55,10 @@ export default function Textform(props) {
           onChange={handleOnChange}
         ></textarea>
       </div>
-      <button className="btn btn-primary mx-1" onClick={handleUpClick}>
+      <button className="btn btn-primary mx-1 my-2" onClick={handleUpClick}>
         Convert to Uppercase
       </button>
-      <button className="btn btn-primary mx-1" onClick={handleLowClick}>
+      <button className="btn btn-primary mx-1 my-2" onClick={handleLowClick}>
         convert to Lowercase
       </button>
 

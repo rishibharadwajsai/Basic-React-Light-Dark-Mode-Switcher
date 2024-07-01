@@ -1,8 +1,63 @@
-# React + Vite
+# Basic React Light/Dark Mode Switcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Basic React Light/Dark Mode Switcher** repository! This project provides a simple implementation of a light/dark mode switcher using React. Users can toggle between light and dark themes for better readability and aesthetics.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Light/Dark Mode Toggle:**
+  - Users can switch between light and dark themes.
+  - The app dynamically adjusts its appearance based on the selected mode.
+
+## Components
+
+The app consists of the following components:
+
+1. **Navbar:**
+   - Displays navigation links and a light/dark mode toggle switch.
+
+2. **Textform:**
+   - Allows users to input text and convert it to uppercase or lowercase.
+   - Displays a summary of the input text (word count and character count).
+
+3. **Alert:**
+   - Shows warning messages based on the provided `props.alert` object.
+
+## Getting Started
+
+1. Clone this repository:
+   ```
+   git clone https://github.com/rishibharadwajsai/Basic-React-Light-Dark-Mode-Switcher.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd Basic-React-Light-Dark-Mode-Switcher
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+4. Run the app:
+   ```
+   npm run dev
+   ```
+
+5. Open your browser and go to `http://localhost:5173` to view the app.
+
+## Styling
+
+The app uses minimal styling to focus on functionality. You can customize the styling further to match your preferences.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to **Basic React Light/Dark Mode Switcher**, follow the [contribution guidelines](./CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+Feel free to explore the code, make improvements, and enjoy experimenting with light and dark themes! 🌞🌙
+
+---

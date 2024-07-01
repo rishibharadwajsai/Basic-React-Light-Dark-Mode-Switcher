@@ -3,7 +3,6 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Textform from "./components/Textform";
-import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Alert from "./components/Alert";
 
