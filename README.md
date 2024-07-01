@@ -26,7 +26,7 @@ The app consists of the following components:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/rishibharadwajsai/Basic-React-Light-Dark-Mode-Switcher.git
+   git clone https://github.com/your-username/Basic-React-Light-Dark-Mode-Switcher.git
    ```
 
 2. Navigate to the project directory:
